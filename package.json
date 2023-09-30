@@ -1,0 +1,17 @@
+{
+  "name": "sass-library",
+  "version": "1.0.0",
+  "description": "My fist attempt of building a more organized way of styling my sites with sass as preprocessor for my css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.68.0"
+  }
+}
