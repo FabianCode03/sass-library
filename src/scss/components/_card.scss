@@ -1,9 +1,11 @@
+@use "sass:math" as math;
 @use "variables" as *;
 
 .card {
   display: block;
   padding: $base-padding;
   border: $base-border-thickness solid #ddd;
+  border-radius: math.div($base-border-radius, 4);
   box-shadow: $base-box-shadow;
 
   &-title {
