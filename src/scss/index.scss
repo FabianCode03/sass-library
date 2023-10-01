@@ -1,5 +1,6 @@
 // variables and functions
 @use "variables" as *;
+@use "functions" as *;
 
 // base and layout
 @use "base" as *;
@@ -8,7 +9,6 @@
 @use "colors" as *;
 
 //components(button, card, navbar, etc.)
-@use "components" as *;
 @use "components" as *;
 
 //utilities (margin, padding, border, opacity, etc.)

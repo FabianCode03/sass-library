@@ -1,4 +1,5 @@
 @use "variables" as *;
+@use "functions" as *;
 
 @mixin btn($bg-color: #e2e2e2) {
   text-decoration: none;
@@ -26,6 +27,15 @@
     border: $base-border-thickness solid $value;
     &:hover {
       background-color: $value;
+    }
+  }
+
+  .btn-complement-#{$key} {
+    @include btn($value);
+    color: light-comp($value);
+    &:hover {
+      color: $value;
+      background-color: light-comp($value);
     }
   }
 }
