@@ -5,5 +5,3 @@
   $light-complement: lighten($complement, 30%);
   @return $light-complement;
 }
-
-@debug $colors;
